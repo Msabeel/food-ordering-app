@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "404900215549",
+    "project_id": "sizzle-foods-310713",
+    "storage_bucket": "sizzle-foods-310713.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:404900215549:android:28728d09938013abfedc94",
+        "android_client_info": {
+          "package_name": "com.azper.sizzle"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "404900215549-0vsnhb4p82m7nh3k5rb3ctf17ae124mb.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.azper.sizzle",
+            "certificate_hash": "17647a796a6bcafbe7f9fc2c2950ac51378e193b"
+          }
+        },
+        {
+          "client_id": "404900215549-730fve7ampotd2a9f6g5il1ffpotai8n.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.azper.sizzle",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "404900215549-nkg0ti1md9299h0nkr0pnd5edvn1gqlf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAHtKXWJgf_DgYRdz8Z0GxyVSkZQ8N_wVo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "404900215549-hk7n2k5p90bpelojoj4rrb5v024i7ns1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

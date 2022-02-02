@@ -1,0 +1,49 @@
+{
+  "expo": {
+    "name": "Sizzle Foods",
+    "slug": "sizzle-front",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier":"com.azper.sizzle",
+      "buildNumber": "1.0.0",
+      "config":{
+        "googleMapsApiKey":"AIzaSyDjUB-i3JWraUXBNqnaPF46eLNY19WRqNk"
+
+      }
+
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.azper.sizzle",
+      "useNextNotificationsApi": true,
+      "googleServicesFile": "./google-services.json",
+      "config": {
+        "googleMaps": {
+          "apiKey": "AIzaSyDjUB-i3JWraUXBNqnaPF46eLNY19WRqNk"
+        }
+      }
+  
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
+

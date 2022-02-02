@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+  <string name="app_name">Sizzle Foods</string>
+  <string name="server_client_id">YOUR_SERVER_CLIENT_ID</string>
+   <string name="facebook_app_id">1106805299811744</string>
+</resources>

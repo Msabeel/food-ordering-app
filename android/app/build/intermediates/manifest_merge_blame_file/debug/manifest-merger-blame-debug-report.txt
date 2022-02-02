@@ -1,0 +1,800 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.azper.sizzle"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="29" />
+10
+11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+11-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:3:3-75
+11-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:3:20-73
+12    <uses-permission android:name="android.permission.INTERNET" />
+12-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:2:3-64
+12-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:2:20-62
+13    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+13-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:4:3-72
+13-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:4:20-70
+14    <uses-permission android:name="android.permission.USE_FINGERPRINT" />
+14-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:5:3-71
+14-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:5:20-69
+15    <uses-permission android:name="android.permission.USE_BIOMETRIC" />
+15-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:6:3-69
+15-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:6:20-67
+16    <uses-permission android:name="android.permission.VIBRATE" />
+16-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:7:3-63
+16-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:7:20-61
+17    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" />
+17-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:8:3-77
+17-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:8:20-75
+18    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+18-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:9:3-78
+18-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:9:20-76
+19    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+19-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:10:3-76
+19-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:10:20-74
+20    <uses-permission android:name="android.permission.ACCESS_BACKGROUND_LOCATION" />
+20-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:11:3-82
+20-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:11:20-80
+21    <uses-permission android:name="android.permission.CAMERA" />
+21-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:12:3-62
+21-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:12:20-60
+22    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+22-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:13:3-68
+22-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:13:20-66
+23    <uses-permission android:name="android.permission.READ_CONTACTS" />
+23-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:14:3-69
+23-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:14:20-67
+24    <uses-permission android:name="android.permission.WRITE_CONTACTS" />
+24-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:15:3-70
+24-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:15:20-68
+25    <uses-permission android:name="android.permission.READ_CALENDAR" />
+25-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:16:3-69
+25-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:16:20-67
+26    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+26-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:17:3-70
+26-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:17:20-68
+27    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+27-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:18:3-77
+27-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:18:20-75
+28    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+28-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:19:3-78
+28-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:19:20-76
+29    <uses-permission android:name="android.permission.WRITE_SETTINGS" />
+29-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:20:3-70
+29-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:20:20-68
+30    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+30-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:21:3-76
+30-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:21:20-74
+31    <uses-permission android:name="android.permission.WAKE_LOCK" />
+31-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:22:3-65
+31-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:22:20-63
+32    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+32-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:23:3-79
+32-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:23:20-77
+33    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+33-->[com.facebook.flipper:flipper:0.54.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\245d7f4a173a338f45ee903a4b573df5\flipper-0.54.0\AndroidManifest.xml:16:5-76
+33-->[com.facebook.flipper:flipper:0.54.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\245d7f4a173a338f45ee903a4b573df5\flipper-0.54.0\AndroidManifest.xml:16:22-73
+34    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+34-->[:expo-location] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-77
+34-->[:expo-location] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:22-74
+35    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+35-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:5-81
+35-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:11:22-78
+36
+37    <uses-feature
+37-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\41210a7e414a2bb1417c660c9db89f5b\play-services-maps-17.0.0\AndroidManifest.xml:26:5-28:35
+38        android:glEsVersion="0x00020000"
+38-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\41210a7e414a2bb1417c660c9db89f5b\play-services-maps-17.0.0\AndroidManifest.xml:27:9-41
+39        android:required="true" />
+39-->[com.google.android.gms:play-services-maps:17.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\41210a7e414a2bb1417c660c9db89f5b\play-services-maps-17.0.0\AndroidManifest.xml:28:9-32
+40
+41    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+41-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:26:5-110
+41-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:26:22-107
+42    <uses-permission android:name="com.google.android.providers.gsf.permission.READ_GSERVICES" />
+42-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:15:5-98
+42-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:15:22-95
+43    <uses-permission android:name="com.google.android.gms.permission.ACTIVITY_RECOGNITION" /> <!-- for android -->
+43-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:16:5-94
+43-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:16:22-91
+44    <!-- <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/> -->
+45    <!-- <uses-permission android:name="com.android.launcher.permission.WRITE_SETTINGS"/> -->
+46    <!-- <uses-permission android:name="com.android.launcher.permission.INSTALL_SHORTCUT" /> -->
+47    <!-- <uses-permission android:name="com.android.launcher.permission.UNINSTALL_SHORTCUT" /> -->
+48    <!-- for Samsung -->
+49    <uses-permission android:name="com.sec.android.provider.badge.permission.READ" />
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:19:5-86
+49-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:19:22-83
+50    <uses-permission android:name="com.sec.android.provider.badge.permission.WRITE" /> <!-- for htc -->
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:20:5-87
+50-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:20:22-84
+51    <uses-permission android:name="com.htc.launcher.permission.READ_SETTINGS" />
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:23:5-81
+51-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:23:22-78
+52    <uses-permission android:name="com.htc.launcher.permission.UPDATE_SHORTCUT" /> <!-- for sony -->
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:24:5-83
+52-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:24:22-80
+53    <uses-permission android:name="com.sonyericsson.home.permission.BROADCAST_BADGE" />
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:27:5-88
+53-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:27:22-85
+54    <uses-permission android:name="com.sonymobile.home.permission.PROVIDER_INSERT_BADGE" /> <!-- for apex -->
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:28:5-92
+54-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:28:22-89
+55    <uses-permission android:name="com.anddoes.launcher.permission.UPDATE_COUNT" /> <!-- for solid -->
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:31:5-84
+55-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:31:22-81
+56    <uses-permission android:name="com.majeur.launcher.permission.UPDATE_BADGE" /> <!-- for huawei -->
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:34:5-83
+56-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:34:22-80
+57    <uses-permission android:name="com.huawei.android.launcher.permission.CHANGE_BADGE" />
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:37:5-91
+57-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:37:22-88
+58    <uses-permission android:name="com.huawei.android.launcher.permission.READ_SETTINGS" />
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:38:5-92
+58-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:38:22-89
+59    <uses-permission android:name="com.huawei.android.launcher.permission.WRITE_SETTINGS" /> <!-- for ZUK -->
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:39:5-93
+59-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:39:22-90
+60    <uses-permission android:name="android.permission.READ_APP_BADGE" /> <!-- for OPPO -->
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:42:5-73
+60-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:42:22-70
+61    <uses-permission android:name="com.oppo.launcher.permission.READ_SETTINGS" />
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:45:5-82
+61-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:45:22-79
+62    <uses-permission android:name="com.oppo.launcher.permission.WRITE_SETTINGS" /> <!-- for EvMe -->
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:46:5-83
+62-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:46:22-80
+63    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_READ" />
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:49:5-88
+63-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:49:22-85
+64    <uses-permission android:name="me.everything.badger.permission.BADGE_COUNT_WRITE" />
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:50:5-89
+64-->[me.leolin:ShortcutBadger:1.1.22] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9a089f766304e4b74e70abf2737ec7ed\ShortcutBadger-1.1.22\AndroidManifest.xml:50:22-86
+65
+66    <application
+66-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:24:3-55:17
+67        android:name="com.azper.sizzle.MainApplication"
+67-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:24:16-47
+68        android:allowBackup="true"
+68-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:29:8-34
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.3.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\e0142b058895786af253b2572b9aea6b\core-1.3.0\AndroidManifest.xml:24:18-86
+70        android:debuggable="true"
+71        android:icon="@mipmap/ic_launcher"
+71-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:27:6-40
+72        android:label="@string/app_name"
+72-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:25:4-36
+73        android:roundIcon="@mipmap/ic_launcher_round"
+73-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:28:7-52
+74        android:supportsRtl="true"
+74-->[com.facebook.android:facebook-android-sdk:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\d59c3065b0a31ce65aa79b8247869b7d\facebook-android-sdk-9.0.0\AndroidManifest.xml:28:18-44
+75        android:theme="@style/AppTheme"
+75-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:30:9-40
+76        android:usesCleartextTraffic="true" >
+76-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:26:6-41
+77        <meta-data
+77-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:31:5-32:63
+78            android:name="expo.modules.updates.EXPO_UPDATE_URL"
+78-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:31:16-67
+79            android:value="https://exp.host/@riyaztad/sizzle-front" />
+79-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:32:6-61
+80        <meta-data
+80-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:33:5-93
+81            android:name="expo.modules.updates.EXPO_SDK_VERSION"
+81-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:33:16-68
+82            android:value="40.0.0" />
+82-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:33:69-91
+83        <meta-data
+83-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:34:5-103
+84            android:name="com.facebook.sdk.ApplicationId"
+84-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:34:16-61
+85            android:value="@string/facebook_app_id" />
+85-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:34:62-101
+86        <meta-data
+86-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:35:5-119
+87            android:name="com.google.android.geo.API_KEY"
+87-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:35:16-61
+88            android:value="AIzaSyDjUB-i3JWraUXBNqnaPF46eLNY19WRqNk" />
+88-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:35:62-117
+89        <meta-data
+89-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:36:5-82
+90            android:name="expo.modules.updates.ENABLED"
+90-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:36:16-59
+91            android:value="true" />
+91-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:36:60-80
+92        <meta-data
+92-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:37:5-105
+93            android:name="expo.modules.updates.EXPO_UPDATES_CHECK_ON_LAUNCH"
+93-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:37:16-80
+94            android:value="ALWAYS" />
+94-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:37:81-103
+95        <meta-data
+95-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:38:5-99
+96            android:name="expo.modules.updates.EXPO_UPDATES_LAUNCH_WAIT_MS"
+96-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:38:16-79
+97            android:value="0" />
+97-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:38:80-97
+98
+99        <activity
+99-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:39:5-52:16
+100            android:name="com.azper.sizzle.MainActivity"
+100-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:39:15-43
+101            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
+101-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:39:77-154
+102            android:label="@string/app_name"
+102-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:39:44-76
+103            android:launchMode="singleTask"
+103-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:39:155-186
+104            android:screenOrientation="portrait"
+104-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:41:6-42
+105            android:windowSoftInputMode="adjustResize" >
+105-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:39:187-229
+106            <intent-filter>
+106-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:42:7-45:23
+107                <action android:name="android.intent.action.MAIN" />
+107-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:43:9-60
+107-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:43:17-58
+108
+109                <category android:name="android.intent.category.LAUNCHER" />
+109-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:44:9-68
+109-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:44:19-66
+110            </intent-filter>
+111            <intent-filter>
+111-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:46:7-51:23
+112                <action android:name="android.intent.action.VIEW" />
+112-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:47:9-60
+112-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:47:17-58
+113
+114                <category android:name="android.intent.category.DEFAULT" />
+114-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:9-67
+114-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:19-65
+115                <category android:name="android.intent.category.BROWSABLE" />
+115-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:49:9-69
+115-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:49:19-67
+116
+117                <data android:scheme="com.azper.sizzle" />
+117-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:50:9-50
+117-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:50:15-48
+118            </intent-filter>
+119        </activity>
+120        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
+120-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:53:5-81
+120-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:53:15-79
+121
+122        <uses-library
+122-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:54:5-83
+123            android:name="org.apache.http.legacy"
+123-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:54:19-56
+124            android:required="false" />
+124-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:54:57-81
+125
+126        <meta-data
+126-->[:unimodules-react-native-adapter] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-14:91
+127            android:name="org.unimodules.core.AppLoader#react-native-headless"
+127-->[:unimodules-react-native-adapter] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:13-79
+128            android:value="org.unimodules.adapters.react.apploader.RNHeadlessAppLoader" />
+128-->[:unimodules-react-native-adapter] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@unimodules\react-native-adapter\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:13-88
+129
+130        <service android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingHeadlessService" />
+130-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-111
+130-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:18-108
+131        <service
+131-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-23:19
+132            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingService"
+132-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-95
+133            android:exported="false" >
+133-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-37
+134            <intent-filter>
+134-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-22:29
+135                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+135-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-78
+135-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-75
+136            </intent-filter>
+137        </service>
+138
+139        <receiver
+139-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-32:20
+140            android:name="io.invertase.firebase.messaging.ReactNativeFirebaseMessagingReceiver"
+140-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-96
+141            android:exported="true"
+141-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:13-36
+142            android:permission="com.google.android.c2dm.permission.SEND" >
+142-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:13-73
+143            <intent-filter>
+143-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-31:29
+144                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+144-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-81
+144-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:25-78
+145            </intent-filter>
+146        </receiver>
+147
+148        <meta-data
+148-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:9-36:36
+149            android:name="firebase_messaging_auto_init_enabled"
+149-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-64
+150            android:value="true" />
+150-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:13-33
+151        <meta-data
+151-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:9-39:32
+152            android:name="com.google.firebase.messaging.default_notification_channel_id"
+152-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-89
+153            android:value="" />
+153-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:13-29
+154        <meta-data
+154-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:9-42:47
+155            android:name="com.google.firebase.messaging.default_notification_color"
+155-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:41:13-84
+156            android:resource="@color/white" />
+156-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:42:13-44
+157
+158        <activity android:name="com.masteratul.exceptionhandler.DefaultErrorScreen" >
+158-->[:react-native-exception-handler] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\react-native-exception-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:9-13:20
+158-->[:react-native-exception-handler] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\react-native-exception-handler\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:12:19-84
+159        </activity>
+160        <activity
+160-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:23:9-27:75
+161            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+161-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:24:13-93
+162            android:excludeFromRecents="true"
+162-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:25:13-46
+163            android:exported="false"
+163-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:26:13-37
+164            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+164-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:27:13-72
+165        <!--
+166            Service handling Google Sign-In user revocation. For apps that do not integrate with
+167            Google Sign-In, this service will never be started.
+168        -->
+169        <service
+169-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:33:9-37:51
+170            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+170-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:34:13-89
+171            android:exported="true"
+171-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:35:13-36
+172            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+172-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:36:13-107
+173            android:visibleToInstantApps="true" />
+173-->[com.google.android.gms:play-services-auth:19.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a7aa594c611f02c9db0262e053e46c21\play-services-auth-19.0.0\AndroidManifest.xml:37:13-48
+174
+175        <provider
+175-->[:expo-file-system] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:9-26:20
+176            android:name="expo.modules.filesystem.FileSystemFileProvider"
+176-->[:expo-file-system] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-74
+177            android:authorities="com.azper.sizzle.FileSystemFileProvider"
+177-->[:expo-file-system] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:13-74
+178            android:exported="false"
+178-->[:expo-file-system] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-37
+179            android:grantUriPermissions="true" >
+179-->[:expo-file-system] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:13-47
+180            <meta-data
+180-->[:expo-file-system] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-25:70
+181                android:name="android.support.FILE_PROVIDER_PATHS"
+181-->[:expo-file-system] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:17-67
+182                android:resource="@xml/file_system_provider_paths" />
+182-->[:expo-file-system] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-file-system\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:17-67
+183        </provider>
+184
+185        <activity
+185-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:30:9-33:66
+186            android:name="com.facebook.FacebookActivity"
+186-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:31:13-57
+187            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+187-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:32:13-96
+188            android:theme="@style/com_facebook_activity_theme" />
+188-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:33:13-63
+189        <activity android:name="com.facebook.CustomTabMainActivity" />
+189-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:34:9-71
+189-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:34:19-68
+190        <activity
+190-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:35:9-49:20
+191            android:name="com.facebook.CustomTabActivity"
+191-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:36:13-58
+192            android:exported="true" >
+192-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:37:13-36
+193            <intent-filter>
+193-->[com.facebook.android:facebook-common:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\13d92223b7d505164b35559839e81dbb\facebook-common-9.0.0\AndroidManifest.xml:39:13-48:29
+194                <action android:name="android.intent.action.VIEW" />
+194-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:47:9-60
+194-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:47:17-58
+195
+196                <category android:name="android.intent.category.DEFAULT" />
+196-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:9-67
+196-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:19-65
+197                <category android:name="android.intent.category.BROWSABLE" />
+197-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:49:9-69
+197-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:49:19-67
+198
+199                <data
+199-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:50:9-50
+200                    android:host="cct.com.azper.sizzle"
+201                    android:scheme="fbconnect" />
+201-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:50:15-48
+202            </intent-filter>
+203        </activity>
+204        <activity
+204-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:27:9-44:20
+205            android:name="com.google.firebase.auth.internal.GenericIdpActivity"
+205-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:28:13-80
+206            android:excludeFromRecents="true"
+206-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:29:13-46
+207            android:exported="true"
+207-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:30:13-36
+208            android:launchMode="singleTask"
+208-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:31:13-44
+209            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+209-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:32:13-72
+210            <intent-filter>
+210-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:33:13-43:29
+211                <action android:name="android.intent.action.VIEW" />
+211-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:47:9-60
+211-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:47:17-58
+212
+213                <category android:name="android.intent.category.DEFAULT" />
+213-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:9-67
+213-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:19-65
+214                <category android:name="android.intent.category.BROWSABLE" />
+214-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:49:9-69
+214-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:49:19-67
+215
+216                <data
+216-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:50:9-50
+217                    android:host="firebase.auth"
+218                    android:path="/"
+219                    android:scheme="genericidp" />
+219-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:50:15-48
+220            </intent-filter>
+221        </activity>
+222        <activity
+222-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:45:9-62:20
+223            android:name="com.google.firebase.auth.internal.RecaptchaActivity"
+223-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:46:13-79
+224            android:excludeFromRecents="true"
+224-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:47:13-46
+225            android:exported="true"
+225-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:48:13-36
+226            android:launchMode="singleTask"
+226-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:49:13-44
+227            android:theme="@android:style/Theme.Translucent.NoTitleBar" >
+227-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:50:13-72
+228            <intent-filter>
+228-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:51:13-61:29
+229                <action android:name="android.intent.action.VIEW" />
+229-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:47:9-60
+229-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:47:17-58
+230
+231                <category android:name="android.intent.category.DEFAULT" />
+231-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:9-67
+231-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:19-65
+232                <category android:name="android.intent.category.BROWSABLE" />
+232-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:49:9-69
+232-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:49:19-67
+233
+234                <data
+234-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:50:9-50
+235                    android:host="firebase.auth"
+236                    android:path="/"
+237                    android:scheme="recaptcha" />
+237-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:50:15-48
+238            </intent-filter>
+239        </activity>
+240
+241        <service
+241-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:64:9-73:19
+242            android:name="com.google.firebase.auth.api.fallback.service.FirebaseAuthFallbackService"
+242-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:65:13-101
+243            android:enabled="true"
+243-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:66:13-35
+244            android:exported="false" >
+244-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:67:13-37
+245            <intent-filter>
+245-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:68:13-72:29
+246                <action android:name="com.google.firebase.auth.api.gms.service.START" />
+246-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:17-89
+246-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:69:25-86
+247
+248                <category android:name="android.intent.category.DEFAULT" />
+248-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:9-67
+248-->D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\android\app\src\main\AndroidManifest.xml:48:19-65
+249            </intent-filter>
+250        </service>
+251        <service
+251-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:74:9-80:19
+252            android:name="com.google.firebase.components.ComponentDiscoveryService"
+252-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:75:13-84
+253            android:directBootAware="true"
+253-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:35:13-43
+254            android:exported="false" >
+254-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:76:13-37
+255            <meta-data
+255-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:77:13-79:85
+256                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
+256-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:78:17-109
+257                android:value="com.google.firebase.components.ComponentRegistrar" />
+257-->[com.google.firebase:firebase-auth:20.0.4] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c105beafb9253c0b1c8c2049aa975846\jetified-firebase-auth-20.0.4\AndroidManifest.xml:79:17-82
+258            <meta-data
+258-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:52:13-54:85
+259                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+259-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:53:17-119
+260                android:value="com.google.firebase.components.ComponentRegistrar" />
+260-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:54:17-82
+261            <meta-data
+261-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\26657a3d667a8175f903eb2e043a5313\firebase-datatransport-17.0.10\AndroidManifest.xml:28:13-30:85
+262                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+262-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\26657a3d667a8175f903eb2e043a5313\firebase-datatransport-17.0.10\AndroidManifest.xml:29:17-115
+263                android:value="com.google.firebase.components.ComponentRegistrar" />
+263-->[com.google.firebase:firebase-datatransport:17.0.10] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\26657a3d667a8175f903eb2e043a5313\firebase-datatransport-17.0.10\AndroidManifest.xml:30:17-82
+264            <meta-data
+264-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\6cd8d5edf0863584d2b78838b16ec360\firebase-iid-21.1.0\AndroidManifest.xml:32:13-34:85
+265                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+265-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\6cd8d5edf0863584d2b78838b16ec360\firebase-iid-21.1.0\AndroidManifest.xml:33:17-96
+266                android:value="com.google.firebase.components.ComponentRegistrar" />
+266-->[com.google.firebase:firebase-iid:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\6cd8d5edf0863584d2b78838b16ec360\firebase-iid-21.1.0\AndroidManifest.xml:34:17-82
+267            <meta-data
+267-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\1223884a33cd5f180355c0580a42dbab\play-services-measurement-api-18.0.3\AndroidManifest.xml:30:13-32:85
+268                android:name="com.google.firebase.components:com.google.firebase.analytics.connector.internal.AnalyticsConnectorRegistrar"
+268-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\1223884a33cd5f180355c0580a42dbab\play-services-measurement-api-18.0.3\AndroidManifest.xml:31:17-139
+269                android:value="com.google.firebase.components.ComponentRegistrar" />
+269-->[com.google.android.gms:play-services-measurement-api:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\1223884a33cd5f180355c0580a42dbab\play-services-measurement-api-18.0.3\AndroidManifest.xml:32:17-82
+270            <meta-data
+270-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\83f20af811c0012d19988eeea0c3bc7e\firebase-installations-16.3.5\AndroidManifest.xml:18:13-20:85
+271                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+271-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\83f20af811c0012d19988eeea0c3bc7e\firebase-installations-16.3.5\AndroidManifest.xml:19:17-127
+272                android:value="com.google.firebase.components.ComponentRegistrar" />
+272-->[com.google.firebase:firebase-installations:16.3.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\83f20af811c0012d19988eeea0c3bc7e\firebase-installations-16.3.5\AndroidManifest.xml:20:17-82
+273            <!--
+274                This registrar is not defined in the dynamic-module-support sdk itself to allow non-firebase
+275                clients to use it as well, by defining this registrar in their own core/common library.
+276            -->
+277            <meta-data
+277-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:43:13-45:85
+278                android:name="com.google.firebase.components:com.google.firebase.dynamicloading.DynamicLoadingRegistrar"
+278-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:44:17-121
+279                android:value="com.google.firebase.components.ComponentRegistrar" />
+279-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:45:17-82
+280        </service>
+281        <service
+281-->[:expo-location] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:9-18:40
+282            android:name="expo.modules.location.services.LocationTaskService"
+282-->[:expo-location] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:13-78
+283            android:exported="false" />
+283-->[:expo-location] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-location\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:13-37
+284        <service
+284-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:14:9-20:19
+285            android:name="expo.modules.notifications.service.ExpoFirebaseMessagingService"
+285-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:13-91
+286            android:exported="false" >
+286-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:16:13-37
+287            <intent-filter android:priority="-1" >
+287-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-22:29
+288                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+288-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-78
+288-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-75
+289            </intent-filter>
+290        </service>
+291
+292        <receiver
+292-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-34:20
+293            android:name="expo.modules.notifications.service.NotificationsService"
+293-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:13-83
+294            android:enabled="true"
+294-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:13-35
+295            android:exported="false" >
+295-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:13-37
+296            <intent-filter android:priority="-1" >
+296-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:13-33:29
+296-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:26:28-49
+297                <action android:name="expo.modules.notifications.NOTIFICATION_EVENT" />
+297-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:17-88
+297-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:27:25-85
+298                <action android:name="android.intent.action.BOOT_COMPLETED" />
+298-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:17-79
+298-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:25-76
+299                <action android:name="android.intent.action.REBOOT" />
+299-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:17-71
+299-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:25-68
+300                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+300-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-82
+300-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:25-79
+301                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+301-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:17-82
+301-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:25-79
+302                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+302-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:17-84
+302-->[:expo-notifications] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\expo-notifications\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:25-81
+303            </intent-filter>
+304        </receiver>
+305        <receiver
+305-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:28:9-35:20
+306            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+306-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:29:13-78
+307            android:exported="true"
+307-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:30:13-36
+308            android:permission="com.google.android.c2dm.permission.SEND" >
+308-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:31:13-73
+309            <intent-filter>
+309-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-31:29
+310                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+310-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:17-81
+310-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:25-78
+311            </intent-filter>
+312        </receiver>
+313        <!--
+314             FirebaseMessagingService performs security checks at runtime,
+315             but set to not exported to explicitly avoid allowing another app to call it.
+316        -->
+317        <service
+317-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:41:9-48:19
+318            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+318-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:42:13-82
+319            android:directBootAware="true"
+319-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:43:13-43
+320            android:exported="false" >
+320-->[com.google.firebase:firebase-messaging:21.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\9c0ebb04ef445fd29c210bcc7e7f8e20\jetified-firebase-messaging-21.1.0\AndroidManifest.xml:44:13-37
+321            <intent-filter android:priority="-500" >
+321-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:13-22:29
+322                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+322-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:17-78
+322-->[:react-native-firebase_messaging] D:\DATA\PROJECTS\ReactNative-project\sizzle-RN\sizzle-project\sizzle\node_modules\@react-native-firebase\messaging\android\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:25-75
+323            </intent-filter>
+324        </service>
+325        <service
+325-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\470e17ead123ddcfd48adbfa43ca8799\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:29:9-35:19
+326            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+326-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\470e17ead123ddcfd48adbfa43ca8799\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:30:13-103
+327            android:exported="false" >
+327-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\470e17ead123ddcfd48adbfa43ca8799\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:31:13-37
+328            <meta-data
+328-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\470e17ead123ddcfd48adbfa43ca8799\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:32:13-34:39
+329                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+329-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\470e17ead123ddcfd48adbfa43ca8799\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:33:17-94
+330                android:value="cct" />
+330-->[com.google.android.datatransport:transport-backend-cct:2.3.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\470e17ead123ddcfd48adbfa43ca8799\jetified-transport-backend-cct-2.3.3\AndroidManifest.xml:34:17-36
+331        </service>
+332
+333        <provider
+333-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:26:9-31:39
+334            android:name="com.google.firebase.provider.FirebaseInitProvider"
+334-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:27:13-77
+335            android:authorities="com.azper.sizzle.firebaseinitprovider"
+335-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:28:13-72
+336            android:directBootAware="true"
+336-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:29:13-43
+337            android:exported="false"
+337-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:30:13-37
+338            android:initOrder="100" />
+338-->[com.google.firebase:firebase-common:19.5.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\c0305941cb77687dfbe4a2a464c9335e\jetified-firebase-common-19.5.0\AndroidManifest.xml:31:13-36
+339
+340        <service
+340-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a506a0ec3c21fdc2cfe3b6544e296425\jetified-transport-runtime-2.2.5\AndroidManifest.xml:26:9-30:19
+341            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+341-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a506a0ec3c21fdc2cfe3b6544e296425\jetified-transport-runtime-2.2.5\AndroidManifest.xml:27:13-117
+342            android:exported="false"
+342-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a506a0ec3c21fdc2cfe3b6544e296425\jetified-transport-runtime-2.2.5\AndroidManifest.xml:28:13-37
+343            android:permission="android.permission.BIND_JOB_SERVICE" >
+343-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a506a0ec3c21fdc2cfe3b6544e296425\jetified-transport-runtime-2.2.5\AndroidManifest.xml:29:13-69
+344        </service>
+345
+346        <receiver
+346-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a506a0ec3c21fdc2cfe3b6544e296425\jetified-transport-runtime-2.2.5\AndroidManifest.xml:32:9-34:40
+347            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+347-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a506a0ec3c21fdc2cfe3b6544e296425\jetified-transport-runtime-2.2.5\AndroidManifest.xml:33:13-132
+348            android:exported="false" />
+348-->[com.google.android.datatransport:transport-runtime:2.2.5] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a506a0ec3c21fdc2cfe3b6544e296425\jetified-transport-runtime-2.2.5\AndroidManifest.xml:34:13-37
+349        <!--
+350         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+351         with the application context. This config is merged in with the host app's manifest,
+352         but there can only be one provider with the same authority activated at any given
+353         point; so if the end user has two or more different apps that use Facebook SDK, only the
+354         first one will be able to use the provider. To work around this problem, we use the
+355         following placeholder in the authority to identify each host application as if it was
+356         a completely different provider.
+357        -->
+358        <provider
+358-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:39:9-42:40
+359            android:name="com.facebook.internal.FacebookInitProvider"
+359-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:40:13-70
+360            android:authorities="com.azper.sizzle.FacebookInitProvider"
+360-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:41:13-72
+361            android:exported="false" />
+361-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:42:13-37
+362
+363        <receiver
+363-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:44:9-50:20
+364            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+364-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:45:13-86
+365            android:exported="false" >
+365-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:46:13-37
+366            <intent-filter>
+366-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:47:13-49:29
+367                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+367-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:48:17-95
+367-->[com.facebook.android:facebook-core:9.0.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\5f60a0cafaf9305f2fb0d90885e83e00\jetified-facebook-core-9.0.0\AndroidManifest.xml:48:25-92
+368            </intent-filter>
+369        </receiver>
+370
+371        <activity
+371-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\590d11b83b56176805d7cb8a67600b87\play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+372            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+372-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\590d11b83b56176805d7cb8a67600b87\play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+373            android:exported="false"
+373-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\590d11b83b56176805d7cb8a67600b87\play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+374            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+374-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\590d11b83b56176805d7cb8a67600b87\play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+375
+376        <receiver
+376-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:29:9-33:20
+377            android:name="com.google.android.gms.measurement.AppMeasurementReceiver"
+377-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:30:13-85
+378            android:enabled="true"
+378-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:31:13-35
+379            android:exported="false" >
+379-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:32:13-37
+380        </receiver>
+381
+382        <service
+382-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:35:9-38:40
+383            android:name="com.google.android.gms.measurement.AppMeasurementService"
+383-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:36:13-84
+384            android:enabled="true"
+384-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:37:13-35
+385            android:exported="false" />
+385-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:38:13-37
+386        <service
+386-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:39:9-43:72
+387            android:name="com.google.android.gms.measurement.AppMeasurementJobService"
+387-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:40:13-87
+388            android:enabled="true"
+388-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:41:13-35
+389            android:exported="false"
+389-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:42:13-37
+390            android:permission="android.permission.BIND_JOB_SERVICE" />
+390-->[com.google.android.gms:play-services-measurement:18.0.3] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\62feae513c7342e40caab7ea69077660\play-services-measurement-18.0.3\AndroidManifest.xml:43:13-69
+391
+392        <meta-data
+392-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\79d2f06e0d3a15fec4101dda45765984\jetified-play-services-basement-17.1.1\AndroidManifest.xml:23:9-25:69
+393            android:name="com.google.android.gms.version"
+393-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\79d2f06e0d3a15fec4101dda45765984\jetified-play-services-basement-17.1.1\AndroidManifest.xml:24:13-58
+394            android:value="@integer/google_play_services_version" />
+394-->[com.google.android.gms:play-services-basement:17.1.1] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\79d2f06e0d3a15fec4101dda45765984\jetified-play-services-basement-17.1.1\AndroidManifest.xml:25:13-66
+395
+396        <provider
+396-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\dcaa8c0d1130e34f069f35a9342fc183\lifecycle-process-2.2.0\AndroidManifest.xml:25:9-29:43
+397            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+397-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\dcaa8c0d1130e34f069f35a9342fc183\lifecycle-process-2.2.0\AndroidManifest.xml:26:13-79
+398            android:authorities="com.azper.sizzle.lifecycle-process"
+398-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\dcaa8c0d1130e34f069f35a9342fc183\lifecycle-process-2.2.0\AndroidManifest.xml:27:13-69
+399            android:exported="false"
+399-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\dcaa8c0d1130e34f069f35a9342fc183\lifecycle-process-2.2.0\AndroidManifest.xml:28:13-37
+400            android:multiprocess="true" />
+400-->[androidx.lifecycle:lifecycle-process:2.2.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\dcaa8c0d1130e34f069f35a9342fc183\lifecycle-process-2.2.0\AndroidManifest.xml:29:13-40
+401
+402        <service
+402-->[androidx.room:room-runtime:2.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\cda749d09799370efcfda9d377d3d49e\room-runtime-2.1.0\AndroidManifest.xml:25:9-27:40
+403            android:name="androidx.room.MultiInstanceInvalidationService"
+403-->[androidx.room:room-runtime:2.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\cda749d09799370efcfda9d377d3d49e\room-runtime-2.1.0\AndroidManifest.xml:26:13-74
+404            android:exported="false" />
+404-->[androidx.room:room-runtime:2.1.0] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\cda749d09799370efcfda9d377d3d49e\room-runtime-2.1.0\AndroidManifest.xml:27:13-37
+405        <service
+405-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:19:9-21:40
+406            android:name="io.nlopez.smartlocation.activity.providers.ActivityGooglePlayServicesProvider$ActivityRecognitionService"
+406-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:20:13-132
+407            android:exported="false" />
+407-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:21:13-37
+408        <service
+408-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:22:9-24:40
+409            android:name="io.nlopez.smartlocation.geofencing.providers.GeofencingGooglePlayServicesProvider$GeofencingService"
+409-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:23:13-127
+410            android:exported="false" />
+410-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:24:13-37
+411        <service
+411-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:25:9-27:40
+412            android:name="io.nlopez.smartlocation.geocoding.providers.AndroidGeocodingProvider$AndroidGeocodingService"
+412-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:26:13-120
+413            android:exported="false" />
+413-->[io.nlopez.smartlocation:library:3.2.11] C:\Users\azhar\.gradle\caches\transforms-2\files-2.1\a6ffc874534868c80adda67d958dc8a8\jetified-library-3.2.11\AndroidManifest.xml:27:13-37
+414    </application>
+415
+416</manifest>
